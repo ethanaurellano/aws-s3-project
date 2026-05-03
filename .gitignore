@@ -1,0 +1,5 @@
+downloaded_hello.txt
+hello.txt
+__pycache__/
+*.pyc
+.env
