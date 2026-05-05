@@ -11,10 +11,17 @@ A Python project that interacts with Amazon S3 using boto3.
 - **S3** — stores the files
 - **IAM** — manages permissions for the scripts
 
+## Prerequisites
+- Python 3.8+
+- An AWS account
+- AWS CLI installed
+
 ## Setup
 
 ### 1. Install dependencies
+```bash
 pip install boto3
+```
 
 ### 2. Configure AWS credentials
 aws configure
@@ -23,3 +30,5 @@ aws configure
 python upload.py
 python list_files.py
 python download_file.py
+
+MIT License
